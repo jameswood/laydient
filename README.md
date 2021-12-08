@@ -13,7 +13,7 @@ it searches for ```LAYER_CHANGE``` in the input gcode, counts them, then generat
 This script inserts the following:
 ``` G10
 T#
-G11```
+G11 ```
 
 This retracts the filament, swaps the tool, then unretracts. The rest of the toolchange/purge is up to your firmware.
 
